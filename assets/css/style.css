@@ -1,0 +1,164 @@
+/*GENERAL*/
+*,*::after,*::before
+{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+#body
+{
+    width: 95%;
+    margin: 1rem auto;
+}
+
+/*HEADER*/
+.header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon_menu
+{
+   height: 45px;
+   width: 55px;
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+.text_logo
+{
+    font-size: 1.5rem;
+    color: black;
+    text-transform: uppercase;
+    font-style: sans-serif;
+    font-weight: bold;
+    margin-left: -10px;
+}
+.search
+{
+    width: 40%;
+    display: flex;
+}
+.flavicon_menu 
+{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.5rem;
+    width: 200px;
+    color: #c0c0c0;
+}
+input[type="search"]
+{
+    width: 100%;
+    height: 2rem;
+    background-color: #f8f8f8;
+    border: solid 1px #c0c0c0;
+}
+button[type="submit"]
+{
+    background-color: white;
+    border-left: none;
+    border-right: solid 1px #c0c0c0;
+    border-top: solid 1px #c0c0c0;
+    border-bottom: solid 1px #c0c0c0;
+    cursor: pointer;
+}
+.fa-bars
+{
+    font-size: 1.5rem;
+    color: #c0c0c0;
+}
+.fa-magnifying-glass
+{
+    color: #c0c0c0;
+}
+.notification
+{
+    color: #c0c0c0;
+}
+/*principal_section*/
+.principal_section
+{
+    display: flex;
+}
+.left_menu
+{
+    flex: 1;
+    max-width: 19%;
+    /*border-right: solid 1px #c0c0c0;*/
+}
+.left_menu ul
+{
+    list-style: none;
+    padding: 1.2rem;
+}
+.list-menu
+{
+    color: black;
+}
+.list:hover, li.active
+{
+    background-color: #c0c0c0;
+}
+
+/*RIGHT MENU SLIDER*/
+.right_menu
+{
+    flex: 1;
+    box-shadow: -1px -1px 0px 0px rgb(128 128 128 / 10%);
+    position: relative;
+}
+#image-1
+{
+    border: #c0c0c0 4px solid;
+}
+#image-1 img
+{
+    max-width: 1700px;
+    max-height: 600px;
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+}
+.info-items
+{
+    max-width: 200px;
+    background-color: rgba(255, 255, 255, 30%);
+    position: absolute;
+    top: 10%;
+    right: 45px;
+    display: flex;
+    flex-direction: column;
+}
+button.valid-btn
+{
+    margin: 12px 12px;
+    color: white;
+    background-color: black;
+    border: none;
+    font-size: 0.5rem;
+    padding: 7px 0px;
+}
+.text-align
+{
+    text-align: center;
+}
+.prev-relative
+{
+    position: absolute;
+    top: 250px;
+    right: 98%;
+    color: rgba(255, 255, 255, 40%);
+}
+.next-relative
+{
+    position: absolute;
+    top: 250px;
+    left: 98%;
+    color: rgba(255, 255, 255, 40%);
+}
